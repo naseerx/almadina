@@ -1,485 +1,951 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Al-Madina Constructions | Building the Future of Peshawar</title>
-    <meta name="description" content="Al-Madina Constructions offers top-tier construction, real estate development, and renovation services in Peshawar. Quality, Trust & Innovation.">
-    <meta name="keywords" content="construction company in peshawar, real estate peshawar, home builders, commercial construction, al-madina constructions">
-    
+    <meta
+      name="description"
+      content="Al-Madina Constructions offers top-tier construction, real estate development, and renovation services in Peshawar. Quality, Trust & Innovation."
+    />
+    <meta
+      name="keywords"
+      content="construction company in peshawar, real estate peshawar, home builders, commercial construction, al-madina constructions"
+    />
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Custom style for hero section gradient */
-        .hero-gradient {
-            background: linear-gradient(to right, rgba(17, 24, 39, 0.9), rgba(17, 24, 39, 0.6), rgba(17, 24, 39, 0.1));
-        }
-        /* Style for active nav link */
-        .nav-link-active {
-            color: #FBBF24; /* amber-400 */
-        }
-    </style>
-</head>
-<body class="bg-gray-100 text-gray-800">
 
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      /* Custom style for hero section gradient */
+      .hero-gradient {
+        background: linear-gradient(
+          to right,
+          rgba(17, 24, 39, 0.9),
+          rgba(17, 24, 39, 0.6),
+          rgba(17, 24, 39, 0.1)
+        );
+      }
+      /* Style for active nav link */
+      .nav-link-active {
+        color: #fbbf24; /* amber-400 */
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
     <!-- Header & Navigation -->
-    <header id="header" class="bg-gray-900 bg-opacity-90 backdrop-blur-sm text-white sticky top-0 z-50 transition-all duration-300">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#home" class="text-2xl font-bold text-amber-400">
-                Al-Madina <span class="text-white font-light">Constructions</span>
-            </a>
-            <!-- Desktop Navigation -->
-            <nav class="hidden md:flex space-x-8 items-center">
-                <a href="#home" class="nav-link hover:text-amber-400 transition-colors duration-300">Home</a>
-                <a href="#about" class="nav-link hover:text-amber-400 transition-colors duration-300">About Us</a>
-                <a href="#services" class="nav-link hover:text-amber-400 transition-colors duration-300">Services</a>
-                <a href="#projects" class="nav-link hover:text-amber-400 transition-colors duration-300">Projects</a>
-                <a href="#contact" class="bg-amber-400 text-gray-900 font-bold py-2 px-5 rounded-lg hover:bg-amber-500 transition-transform duration-300 hover:scale-105">Contact Us</a>
-            </nav>
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </button>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-gray-900">
-            <a href="#home" class="block py-3 px-6 text-center hover:bg-gray-800">Home</a>
-            <a href="#about" class="block py-3 px-6 text-center hover:bg-gray-800">About Us</a>
-            <a href="#services" class="block py-3 px-6 text-center hover:bg-gray-800">Services</a>
-            <a href="#projects" class="block py-3 px-6 text-center hover:bg-gray-800">Projects</a>
-            <a href="#contact" class="block py-3 px-6 text-center hover:bg-gray-800">Contact Us</a>
-        </div>
+    <header
+      id="header"
+      class="bg-gray-900 bg-opacity-90 backdrop-blur-sm text-white sticky top-0 z-50 transition-all duration-300"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#home" class="flex items-center space-x-3">
+          <img
+            src="../almadina/assests/logo-rm.png"
+            alt="Al-Madina Constructions Logo"
+            class="h-16 w-auto"
+          />
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-8 items-center">
+          <a
+            href="#home"
+            class="nav-link hover:text-amber-400 transition-colors duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="nav-link hover:text-amber-400 transition-colors duration-300"
+            >About Us</a
+          >
+          <a
+            href="#services"
+            class="nav-link hover:text-amber-400 transition-colors duration-300"
+            >Services</a
+          >
+          <a
+            href="#projects"
+            class="nav-link hover:text-amber-400 transition-colors duration-300"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="bg-amber-400 text-gray-900 font-bold py-2 px-5 rounded-lg hover:bg-amber-500 transition-transform duration-300 hover:scale-105"
+            >Contact Us</a
+          >
+        </nav>
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden text-white focus:outline-none"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-gray-900">
+        <a href="#home" class="block py-3 px-6 text-center hover:bg-gray-800"
+          >Home</a
+        >
+        <a href="#about" class="block py-3 px-6 text-center hover:bg-gray-800"
+          >About Us</a
+        >
+        <a
+          href="#services"
+          class="block py-3 px-6 text-center hover:bg-gray-800"
+          >Services</a
+        >
+        <a
+          href="#projects"
+          class="block py-3 px-6 text-center hover:bg-gray-800"
+          >Projects</a
+        >
+        <a href="#contact" class="block py-3 px-6 text-center hover:bg-gray-800"
+          >Contact Us</a
+        >
+      </div>
     </header>
 
     <main>
-        <!-- 1. Hero Section -->
-        <section id="home" class="h-screen bg-cover bg-center flex items-center" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop');">
-            <div class="w-full h-full bg-black bg-opacity-60 flex items-center">
-                <div class="container mx-auto px-6 text-white text-left max-w-4xl">
-                    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
-                        Building the Future of <span class="text-amber-400">Peshawar</span>
-                    </h1>
-                    <p class="text-lg md:text-2xl font-light mb-8 animate-fade-in-up">
-                        Quality, Trust & Innovation in Every Project.
+      <!-- 1. Hero Section -->
+      <section
+        id="home"
+        class="h-screen bg-cover bg-center flex items-center"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop');
+        "
+      >
+        <div class="w-full h-full bg-black bg-opacity-60 flex items-center">
+          <div class="container mx-auto px-6 text-white text-left max-w-4xl">
+            <h1
+              class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down"
+            >
+              Building the Future of
+              <span class="text-amber-400">Peshawar</span>
+            </h1>
+            <p class="text-lg md:text-2xl font-light mb-8 animate-fade-in-up">
+              Quality, Trust & Innovation in Every Project.
+            </p>
+            <a
+              href="#contact"
+              class="bg-amber-400 text-gray-900 font-bold py-3 px-8 rounded-lg text-lg hover:bg-amber-500 transition-transform duration-300 hover:scale-105 inline-block"
+              >Get a Free Quote</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About Us -->
+
+      <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-0 sm:px-4">
+          <!-- Section Title -->
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+              About Al-Madina Constructions
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+              Your trusted partner in construction and real estate, committed to
+              shaping Peshawar's landscape with excellence.
+            </p>
+          </div>
+
+          <!-- Content Section -->
+          <div class="max-w-6xl mx-auto">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Story</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Founded with a vision to deliver unparalleled construction
+              services in Peshawar, Al-Madina Constructions has grown into a
+              hallmark of quality and reliability. We blend modern techniques
+              with traditional values to build not just structures, but lasting
+              relationships with our clients.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Our Services -->
+      <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+              Our Services
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+              Comprehensive solutions for all your construction and design
+              needs, delivered with precision and expertise.
+            </p>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Service Card 1 -->
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Construction Services</h3>
+              <p class="text-gray-600 text-sm">
+                Residential, Commercial, Grey Structure, and Finishing works
+                with a focus on durability.
+              </p>
+            </div>
+            <!-- Service Card 2 -->
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Real Estate Development</h3>
+              <p class="text-gray-600 text-sm">
+                Creating modern housing projects and commercial plazas that
+                redefine urban living.
+              </p>
+            </div>
+            <!-- Service Card 3 -->
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Renovation & Design</h3>
+              <p class="text-gray-600 text-sm">
+                Transforming spaces with expert remodeling, painting, flooring,
+                and interior design.
+              </p>
+            </div>
+            <!-- Service Card 4 -->
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6H8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Architecture & Design</h3>
+              <p class="text-gray-600 text-sm">
+                Innovative floor plans, stunning 3D designs, and sustainable
+                landscaping services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Our Team -->
+      <section id="team" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+              Our Team
+            </h2>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-8">
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-96"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Sultan Muhammad</h3>
+              <p class="text-gray-600 text-sm">Founder and CEO</p>
+            </div>
+
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-96"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Muhammad Riaz</h3>
+              <p class="text-gray-600 text-sm">Manager</p>
+            </div>
+
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-96"
+            >
+              <div
+                class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Abdullah Jan</h3>
+              <p class="text-gray-600 text-sm">Site Supervisor</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Our Projects (Portfolio) -->
+      <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+              Our Projects
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+              A showcase of our commitment to excellence and quality
+              craftsmanship across various sectors.
+            </p>
+          </div>
+          <div class="flex justify-center space-x-4 mb-8">
+            <button
+              class="filter-btn active bg-amber-400 text-gray-900 py-2 px-6 rounded-lg font-semibold"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn bg-gray-200 text-gray-700 py-2 px-6 rounded-lg font-semibold"
+              data-filter="residential"
+            >
+              Residential
+            </button>
+            <button
+              class="filter-btn bg-gray-200 text-gray-700 py-2 px-6 rounded-lg font-semibold"
+              data-filter="commercial"
+            >
+              Commercial
+            </button>
+            <button
+              class="filter-btn bg-gray-200 text-gray-700 py-2 px-6 rounded-lg font-semibold"
+              data-filter="mosques"
+            >
+              Mosques
+            </button>
+          </div>
+          <div
+            class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"
+            id="project-grid"
+          >
+            <!-- Project Item 1 -->
+            <div
+              class="project-item residential group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop"
+                  alt="Modern Villa"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">Modern Villa</h3>
+                    <p class="text-sm mt-2">
+                      Hayatabad, Peshawar. A luxury residential project
+                      featuring state-of-the-art amenities.
                     </p>
-                    <a href="#contact" class="bg-amber-400 text-gray-900 font-bold py-3 px-8 rounded-lg text-lg hover:bg-amber-500 transition-transform duration-300 hover:scale-105 inline-block">Get a Free Quote</a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-
-        <!-- 2. About Us -->
-        <section id="about" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">About Al-Madina Constructions</h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Your trusted partner in construction and real estate, committed to shaping Peshawar's landscape with excellence.</p>
+            <!-- Project Item 2 -->
+            <div
+              class="project-item commercial group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+                  alt="Corporate Plaza"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">Corporate Plaza</h3>
+                    <p class="text-sm mt-2">
+                      University Road, Peshawar. A multi-story commercial
+                      building with modern retail spaces.
+                    </p>
+                  </div>
                 </div>
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Story</h3>
-                        <p class="text-gray-600 mb-4">Founded with a vision to deliver unparalleled construction services in Peshawar, Al-Madina Constructions has grown into a hallmark of quality and reliability. We blend modern techniques with traditional values to build not just structures, but lasting relationships with our clients.</p>
-                        <h3 class="text-2xl font-semibold text-gray-800 my-4">Mission & Vision</h3>
-                        <p class="text-gray-600">Our mission is to construct high-quality, cost-effective projects on schedule and exceed client expectations. We envision becoming the leading construction firm in Khyber Pakhtunkhwa, recognized for our integrity, innovation, and commitment to community development.</p>
-                    </div>
-                    <div>
-                        <div class="bg-gray-50 p-8 rounded-lg shadow-md">
-                            <h3 class="text-2xl font-semibold text-gray-800 mb-6">Our Core Values</h3>
-                            <ul class="space-y-4">
-                                <li class="flex items-start">
-                                    <span class="text-amber-500 mr-4 mt-1">&#10003;</span>
-                                    <div><strong class="font-semibold">Integrity:</strong> Upholding the highest standards of honesty and transparency.</div>
-                                </li>
-                                <li class="flex items-start">
-                                    <span class="text-amber-500 mr-4 mt-1">&#10003;</span>
-                                    <div><strong class="font-semibold">Safety:</strong> Prioritizing the safety of our team, clients, and community.</div>
-                                </li>
-                                <li class="flex items-start">
-                                    <span class="text-amber-500 mr-4 mt-1">&#10003;</span>
-                                    <div><strong class="font-semibold">Quality:</strong> Using premium materials and superior craftsmanship.</div>
-                                </li>
-                                <li class="flex items-start">
-                                    <span class="text-amber-500 mr-4 mt-1">&#10003;</span>
-                                    <div><strong class="font-semibold">Timely Delivery:</strong> Completing every project on time and within budget.</div>
-                                </li>
-                            </ul>
-                            <div class="mt-8 border-t pt-6">
-                                <h4 class="font-bold text-gray-700">Certifications:</h4>
-                                <p class="text-sm text-gray-600">PEC No: C5/12345 | NTN: 9876543-2</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- 3. Our Services -->
-        <section id="services" class="py-20 bg-gray-50">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Services</h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Comprehensive solutions for all your construction and design needs, delivered with precision and expertise.</p>
+            <!-- Project Item 3 -->
+            <div
+              class="project-item residential group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2070&auto=format&fit=crop"
+                  alt="Family Home"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">Classic Family Home</h3>
+                    <p class="text-sm mt-2">
+                      Warsak Road, Peshawar. Elegant design with spacious
+                      interiors for comfortable family living.
+                    </p>
+                  </div>
                 </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Service Card 1 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Construction Services</h3>
-                        <p class="text-gray-600 text-sm">Residential, Commercial, Grey Structure, and Finishing works with a focus on durability.</p>
-                    </div>
-                    <!-- Service Card 2 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Real Estate Development</h3>
-                        <p class="text-gray-600 text-sm">Creating modern housing projects and commercial plazas that redefine urban living.</p>
-                    </div>
-                    <!-- Service Card 3 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Renovation & Design</h3>
-                        <p class="text-gray-600 text-sm">Transforming spaces with expert remodeling, painting, flooring, and interior design.</p>
-                    </div>
-                    <!-- Service Card 4 -->
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                        <div class="bg-amber-100 text-amber-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6H8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" /></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Architecture & Design</h3>
-                        <p class="text-gray-600 text-sm">Innovative floor plans, stunning 3D designs, and sustainable landscaping services.</p>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- 4. Our Projects (Portfolio) -->
-        <section id="projects" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Projects</h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">A showcase of our commitment to excellence and quality craftsmanship across various sectors.</p>
+            <!-- Project Item 4 -->
+            <div
+              class="project-item commercial group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1887&auto=format&fit=crop"
+                  alt="Shopping Mall"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">Grand Shopping Mall</h3>
+                    <p class="text-sm mt-2">
+                      Ring Road, Peshawar. A large-scale retail development
+                      project.
+                    </p>
+                  </div>
                 </div>
-                <div class="flex justify-center space-x-4 mb-8">
-                    <button class="filter-btn active bg-amber-400 text-gray-900 py-2 px-6 rounded-lg font-semibold" data-filter="all">All</button>
-                    <button class="filter-btn bg-gray-200 text-gray-700 py-2 px-6 rounded-lg font-semibold" data-filter="residential">Residential</button>
-                    <button class="filter-btn bg-gray-200 text-gray-700 py-2 px-6 rounded-lg font-semibold" data-filter="commercial">Commercial</button>
-                </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" id="project-grid">
-                    <!-- Project Item 1 -->
-                    <div class="project-item residential group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop" alt="Modern Villa" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">Modern Villa</h3>
-                                    <p class="text-sm mt-2">Hayatabad, Peshawar. A luxury residential project featuring state-of-the-art amenities.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Item 2 -->
-                    <div class="project-item commercial group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" alt="Corporate Plaza" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">Corporate Plaza</h3>
-                                    <p class="text-sm mt-2">University Road, Peshawar. A multi-story commercial building with modern retail spaces.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Item 3 -->
-                    <div class="project-item residential group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2070&auto=format&fit=crop" alt="Family Home" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">Classic Family Home</h3>
-                                    <p class="text-sm mt-2">Warsak Road, Peshawar. Elegant design with spacious interiors for comfortable family living.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Item 4 -->
-                    <div class="project-item commercial group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1887&auto=format&fit=crop" alt="Shopping Mall" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">Grand Shopping Mall</h3>
-                                    <p class="text-sm mt-2">Ring Road, Peshawar. A large-scale retail development project.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Item 5 -->
-                    <div class="project-item residential group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1528926711921-2a13a45c3b17?q=80&w=1968&auto=format&fit=crop" alt="Apartment Complex" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">City View Apartments</h3>
-                                    <p class="text-sm mt-2">Gulbahar, Peshawar. A modern apartment complex with scenic views and luxury living.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Project Item 6 -->
-                     <div class="project-item commercial group overflow-hidden rounded-lg shadow-lg">
-                        <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1542304074-9c8ce93b332b?q=80&w=2070&auto=format&fit=crop" alt="Office Building" class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center">
-                                <div class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
-                                    <h3 class="text-xl font-bold">Tech Tower</h3>
-                                    <p class="text-sm mt-2">Shami Road, Peshawar. An office building designed for technology companies.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- 5. Why Choose Us -->
-        <section id="why-us" class="py-20 bg-gray-900 text-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">Why Choose Us?</h2>
-                    <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Our experience, dedication, and commitment to quality make us the ideal partner for your next project.</p>
+            <!-- Project Item 5 -->
+            <div
+              class="project-item residential group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1528926711921-2a13a45c3b17?q=80&w=1968&auto=format&fit=crop"
+                  alt="Apartment Complex"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">City View Apartments</h3>
+                    <p class="text-sm mt-2">
+                      Gulbahar, Peshawar. A modern apartment complex with scenic
+                      views and luxury living.
+                    </p>
+                  </div>
                 </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-                    <div class="bg-gray-800 p-8 rounded-lg">
-                        <div class="text-amber-400 text-5xl font-extrabold mb-2 counter" data-target="15">0</div>
-                        <h3 class="text-xl font-semibold">Years of Experience</h3>
-                    </div>
-                     <div class="bg-gray-800 p-8 rounded-lg">
-                        <div class="text-amber-400 text-5xl font-extrabold mb-2 counter" data-target="150">0</div>
-                        <h3 class="text-xl font-semibold">Skilled Team Members</h3>
-                    </div>
-                     <div class="bg-gray-800 p-8 rounded-lg">
-                        <div class="text-amber-400 text-5xl font-extrabold mb-2 counter" data-target="200">0</div>
-                        <h3 class="text-xl font-semibold">Projects Completed</h3>
-                    </div>
-                     <div class="bg-gray-800 p-8 rounded-lg">
-                        <div class="text-amber-400 text-5xl font-extrabold mb-2 counter" data-target="98">0</div>
-                        <h3 class="text-xl font-semibold">Client Satisfaction (%)</h3>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- 6. Contact Us -->
-        <section id="contact" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Get In Touch</h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Have a project in mind? We'd love to hear from you. Contact us for a consultation.</p>
+            <!-- Project Item 6 -->
+            <div
+              class="project-item commercial group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1542304074-9c8ce93b332b?q=80&w=2070&auto=format&fit=crop"
+                  alt="Office Building"
+                  class="w-full h-60 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-500 flex items-center justify-center"
+                >
+                  <div
+                    class="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4"
+                  >
+                    <h3 class="text-xl font-bold">Tech Tower</h3>
+                    <p class="text-sm mt-2">
+                      Shami Road, Peshawar. An office building designed for
+                      technology companies.
+                    </p>
+                  </div>
                 </div>
-                <div class="grid lg:grid-cols-2 gap-12">
-                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
-                        <form>
-                            <div class="mb-4">
-                                <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
-                                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="phone" class="block text-gray-700 font-medium mb-2">Phone</label>
-                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" required></textarea>
-                            </div>
-                            <button type="submit" class="w-full bg-amber-400 text-gray-900 font-bold py-3 px-6 rounded-lg hover:bg-amber-500 transition duration-300">Send Message</button>
-                        </form>
-                    </div>
-                    <div>
-                        <div class="mb-8">
-                            <h3 class="text-xl font-semibold mb-4 text-gray-800">Contact Details</h3>
-                            <ul class="space-y-3 text-gray-600">
-                                <li class="flex items-center"><span class="text-amber-500 mr-3">&#9751;</span> Main Ring Road, Peshawar, KP, Pakistan</li>
-                                <li class="flex items-center"><span class="text-amber-500 mr-3">&#9742;</span> +92 300 1234567</li>
-                                <li class="flex items-center"><span class="text-amber-500 mr-3">&#9993;</span> info@almadinaconstructions.pk</li>
-                                <li class="flex items-center"><span class="text-amber-500 mr-3">&#9200;</span> Mon - Sat: 9:00 AM - 6:00 PM</li>
-                            </ul>
-                        </div>
-                        <div>
-                             <h3 class="text-xl font-semibold mb-4 text-gray-800">Our Location</h3>
-                             <div class="rounded-lg overflow-hidden shadow-md">
-                                <!-- Using a static map image as a placeholder for Google Maps embed -->
-                                <a href="https://www.google.com/maps/place/Peshawar,+Khyber+Pakhtunkhwa,+Pakistan" target="_blank">
-                                    <img src="https://placehold.co/800x400/e2e8f0/333333?text=Click+to+View+Map" alt="Map of Peshawar" class="w-full h-full object-cover">
-                                </a>
-                             </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <!-- 5. Why Choose Us -->
+      <section id="why-us" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold">Why Choose Us?</h2>
+            <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+              Our experience, dedication, and commitment to quality make us the
+              ideal partner for your next project.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-8 text-center">
+            <div class="bg-gray-800 p-8 rounded-lg w-96">
+              <div
+                class="text-amber-400 text-5xl font-extrabold mb-2 counter"
+                data-target="24"
+              >
+                0
+              </div>
+              <h3 class="text-xl font-semibold">Years of Experience</h3>
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-lg w-96">
+              <div
+                class="text-amber-400 text-5xl font-extrabold mb-2 counter"
+                data-target="75"
+              >
+                0
+              </div>
+              <h3 class="text-xl font-semibold">Skilled Team Members</h3>
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-lg w-96">
+              <div
+                class="text-amber-400 text-5xl font-extrabold mb-2 counter"
+                data-target="120"
+              >
+                0
+              </div>
+              <h3 class="text-xl font-semibold">Projects Completed</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+              Get In Touch
+            </h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+              Have a project in mind? We'd love to hear from you. Contact us for
+              expert guidance and consultation.
+            </p>
+          </div>
+
+        <div class="grid lg:grid-cols-[1fr_3fr] gap-12 items-center">
+  <!-- Left: Contact Details -->
+  <div class="text-left">
+    <h3 class="text-2xl font-semibold mb-8 text-gray-800 uppercase tracking-wide">
+      Contact Details
+    </h3>
+    <ul class="space-y-5 text-lg text-gray-700">
+      <li class="flex items-center">
+        <span class="text-amber-500 text-2xl mr-4">&#9751;</span>
+        Warsak Road, Peshawar, Pakistan
+      </li>
+      <li class="flex items-center">
+        <span class="text-amber-500 text-2xl mr-4">&#9742;</span>
+        <a href="tel:+923339221258" class="hover:text-amber-500 transition-colors">
+          +92 333 9221258
+        </a>
+      </li>
+      <li class="flex items-center">
+        <span class="text-amber-500 text-2xl mr-4">&#9993;</span>
+        <a href="mailto:info@almadinaconstructions.pk" class="hover:text-amber-500 transition-colors">
+          info@almadinaconstructions.pk
+        </a>
+      </li>
+      <li class="flex items-center">
+        <span class="text-amber-500 text-2xl mr-4">&#9200;</span>
+        Mon - Sat:
+        <span class="ml-1 font-medium">9:00 AM - 6:00 PM</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="text-center lg:text-right">
+    <h3 class="text-2xl font-semibold mb-8 text-gray-800 uppercase tracking-wide">
+      Our Location
+    </h3>
+    <div
+      class="rounded-xl overflow-hidden shadow-xl border border-gray-200 hover:scale-[1.02] transition-transform duration-300"
+    >
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2406.4515639617684!2d71.52021757411923!3d34.039245218419204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91661b1241a97%3A0x6bf6ffa64fbbfac4!2sSabz%20Ali%20Town%20Rd%2C%20Peshawar%2C%20Pakistan!5e1!3m2!1sen!2s!4v1761649656226!5m2!1sen!2s" 
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+
+      </section>
     </main>
-    
+
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 pt-12">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
-                <div>
-                    <h3 class="text-xl font-bold text-amber-400 mb-4">Al-Madina Constructions</h3>
-                    <p class="text-gray-400">Building the future of Peshawar with a foundation of trust, quality, and innovation. Your vision, our expertise.</p>
-                    <p class="text-xs text-gray-500 mt-4">PEC License: C5/12345</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#home" class="hover:text-amber-400 transition-colors">Home</a></li>
-                        <li><a href="#about" class="hover:text-amber-400 transition-colors">About Us</a></li>
-                        <li><a href="#services" class="hover:text-amber-400 transition-colors">Services</a></li>
-                        <li><a href="#projects" class="hover:text-amber-400 transition-colors">Projects</a></li>
-                        <li><a href="#contact" class="hover:text-amber-400 transition-colors">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-semibold text-white mb-4">Connect With Us</h3>
-                    <div class="flex justify-center md:justify-start space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-amber-400 transition-colors">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-amber-400 transition-colors">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.06-1.004.048-1.625.211-2.126.41-1.15.456-2.002 1.308-2.457 2.457-.199.501-.362 1.122-.41 2.126-.048 1.023-.06 1.351-.06 3.807v.468c0 2.456.011 2.784.06 3.807.048 1.004.211 1.625.41 2.126.456 1.15 1.308 2.002 2.457 2.457.501.199 1.122.362 2.126.41 1.023.048 1.351.06 3.807.06h.468c2.456 0 2.784-.011 3.807-.06 1.004-.048 1.625-.211 2.126-.41 1.15-.456 2.002-1.308 2.457-2.457.199-.501.362-1.122.41-2.126.048-1.023.06-1.351.06-3.807v-.468c0-2.456-.011-2.784-.06-3.807-.048-1.004-.211-1.625-.41-2.126-.456-1.15-1.308-2.002-2.457-2.457-.501-.199-1.122-.362-2.126-.41-1.023-.048-1.351-.06-3.807-.06zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-amber-400 transition-colors">
-                           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                        </a>
-                    </div>
-                </div>
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+          <div>
+            <h3 class="text-xl font-bold text-amber-400 mb-4">
+              Al-Madina Constructions
+            </h3>
+            <p class="text-gray-400">
+              Building the future of Peshawar with a foundation of trust,
+              quality, and innovation. Your vision, our expertise.
+            </p>
+            <p class="text-xs text-gray-500 mt-4">PEC License: C5/12345</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#home" class="hover:text-amber-400 transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="hover:text-amber-400 transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-amber-400 transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  class="hover:text-amber-400 transition-colors"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="hover:text-amber-400 transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white mb-4">
+              Connect With Us
+            </h3>
+            <div class="flex justify-center md:justify-start space-x-4">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-amber-400 transition-colors"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-amber-400 transition-colors"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.06-1.004.048-1.625.211-2.126.41-1.15.456-2.002 1.308-2.457 2.457-.199.501-.362 1.122-.41 2.126-.048 1.023-.06 1.351-.06 3.807v.468c0 2.456.011 2.784.06 3.807.048 1.004.211 1.625.41 2.126.456 1.15 1.308 2.002 2.457 2.457.501.199 1.122.362 2.126.41 1.023.048 1.351.06 3.807.06h.468c2.456 0 2.784-.011 3.807-.06 1.004-.048 1.625-.211 2.126-.41 1.15-.456 2.002-1.308 2.457-2.457.199-.501.362-1.122.41-2.126.048-1.023.06-1.351.06-3.807v-.468c0-2.456-.011-2.784-.06-3.807-.048-1.004-.211-1.625-.41-2.126-.456-1.15-1.308-2.002-2.457-2.457-.501-.199-1.122-.362-2.126-.41-1.023-.048-1.351-.06-3.807-.06zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-amber-400 transition-colors"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  />
+                </svg>
+              </a>
             </div>
-            <div class="mt-8 border-t border-gray-800 py-6 text-center text-gray-500">
-                <p>Copyright &copy; 2025 Al-Madina Constructions. All Rights Reserved.</p>
-            </div>
+          </div>
         </div>
+        <div
+          class="mt-8 border-t border-gray-800 py-6 text-center text-gray-500"
+        >
+          <p>
+            Copyright &copy; 2025 Al-Madina Constructions. All Rights Reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Mobile Menu Toggle
-            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
-
-            // Close mobile menu on link click
-            document.querySelectorAll('#mobile-menu a').forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileMenu.classList.add('hidden');
-                });
-            });
-
-            // Project Filtering
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            const projectItems = document.querySelectorAll('.project-item');
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    filterBtns.forEach(b => {
-                        b.classList.remove('active', 'bg-amber-400', 'text-gray-900');
-                        b.classList.add('bg-gray-200', 'text-gray-700');
-                    });
-                    btn.classList.add('active', 'bg-amber-400', 'text-gray-900');
-                    btn.classList.remove('bg-gray-200', 'text-gray-700');
-
-                    const filter = btn.getAttribute('data-filter');
-                    projectItems.forEach(item => {
-                        if (filter === 'all' || item.classList.contains(filter)) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-            
-            // Counter Animation
-            const counters = document.querySelectorAll('.counter');
-            const speed = 200; // The lower the slower
-
-            const animateCounter = (counter) => {
-                const target = +counter.getAttribute('data-target');
-                const updateCount = () => {
-                    const count = +counter.innerText;
-                    const inc = target / speed;
-
-                    if (count < target) {
-                        counter.innerText = Math.ceil(count + inc);
-                        setTimeout(updateCount, 10);
-                    } else {
-                        counter.innerText = target;
-                    }
-                };
-                updateCount();
-            }
-
-            // Intersection Observer for counters
-            const observerOptions = {
-                root: null,
-                threshold: 0.5
-            };
-            
-            const counterObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        animateCounter(entry.target);
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
-
-            counters.forEach(counter => {
-                counterObserver.observe(counter);
-            });
-            
-            // Active Nav Link on Scroll
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('.nav-link');
-
-            window.addEventListener('scroll', () => {
-                let current = '';
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-                    if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
-                        current = section.getAttribute('id');
-                    }
-                });
-
-                navLinks.forEach(link => {
-                    link.classList.remove('nav-link-active');
-                    if (link.getAttribute('href').includes(current)) {
-                        link.classList.add('nav-link-active');
-                    }
-                });
-            });
-
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        mobileMenuBtn.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
         });
+
+        // Close mobile menu on link click
+        document.querySelectorAll("#mobile-menu a").forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.add("hidden");
+          });
+        });
+
+        // Project Filtering
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const projectItems = document.querySelectorAll(".project-item");
+        filterBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            filterBtns.forEach((b) => {
+              b.classList.remove("active", "bg-amber-400", "text-gray-900");
+              b.classList.add("bg-gray-200", "text-gray-700");
+            });
+            btn.classList.add("active", "bg-amber-400", "text-gray-900");
+            btn.classList.remove("bg-gray-200", "text-gray-700");
+
+            const filter = btn.getAttribute("data-filter");
+            projectItems.forEach((item) => {
+              if (filter === "all" || item.classList.contains(filter)) {
+                item.style.display = "block";
+              } else {
+                item.style.display = "none";
+              }
+            });
+          });
+        });
+
+        // Counter Animation
+        const counters = document.querySelectorAll(".counter");
+        const speed = 200; // The lower the slower
+
+        const animateCounter = (counter) => {
+          const target = +counter.getAttribute("data-target");
+          const updateCount = () => {
+            const count = +counter.innerText;
+            const inc = target / speed;
+
+            if (count < target) {
+              counter.innerText = Math.ceil(count + inc);
+              setTimeout(updateCount, 10);
+            } else {
+              counter.innerText = target;
+            }
+          };
+          updateCount();
+        };
+
+        // Intersection Observer for counters
+        const observerOptions = {
+          root: null,
+          threshold: 0.5,
+        };
+
+        const counterObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          observerOptions
+        );
+
+        counters.forEach((counter) => {
+          counterObserver.observe(counter);
+        });
+
+        // Active Nav Link on Scroll
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+          let current = "";
+          sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= sectionTop - sectionHeight / 3) {
+              current = section.getAttribute("id");
+            }
+          });
+
+          navLinks.forEach((link) => {
+            link.classList.remove("nav-link-active");
+            if (link.getAttribute("href").includes(current)) {
+              link.classList.add("nav-link-active");
+            }
+          });
+        });
+      });
     </script>
-</body>
+    <a
+      href="https://wa.me/923339221258"
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg w-14 h-14 flex items-center justify-center animate-bounce z-50 transition-all duration-300"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        fill="currentColor"
+        class="w-8 h-8"
+      >
+        <path
+          d="M16.002 3.2C9.383 3.2 4 8.585 4 15.207c0 2.56.805 4.92 2.18 6.873L4 28.8l6.905-2.15a11.918 11.918 0 005.097 1.135h.002C22.62 27.785 28 22.4 28 15.785 28 9.166 22.62 3.782 16.002 3.782zM16 25.604h-.002a9.75 9.75 0 01-4.977-1.37l-.356-.21-4.094 1.28 1.34-3.99-.233-.375a9.77 9.77 0 01-1.518-5.233c0-5.383 4.381-9.767 9.78-9.767 2.615 0 5.07 1.02 6.92 2.866a9.68 9.68 0 012.855 6.901c0 5.382-4.381 9.768-9.775 9.768zm5.36-7.284c-.293-.147-1.74-.861-2.012-.96-.272-.098-.47-.147-.667.147-.197.294-.766.96-.94 1.158-.172.197-.344.222-.637.074-.294-.147-1.241-.457-2.364-1.455-.875-.78-1.465-1.74-1.637-2.035-.173-.293-.018-.451.13-.598.134-.134.293-.346.44-.518.147-.172.197-.293.294-.489.098-.196.05-.367-.025-.514-.075-.148-.667-1.606-.915-2.202-.24-.578-.485-.5-.667-.51l-.57-.01c-.197 0-.518.074-.79.372-.273.293-1.04 1.016-1.04 2.48s1.064 2.876 1.213 3.074c.147.197 2.104 3.22 5.094 4.512.713.307 1.265.49 1.697.627.714.227 1.363.195 1.875.118.572-.086 1.758-.719 2.006-1.412.247-.693.247-1.29.172-1.412-.074-.123-.272-.197-.568-.344z"
+        />
+      </svg>
+    </a>
+  </body>
 </html>
-
-
